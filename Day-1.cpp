@@ -19,4 +19,11 @@ int main(){
     cout << vinit * rutvik << endl;
     cout << vinit / rutvik << endl;
     cout << vinit % rutvik << endl; // mod returns reminder of division
+
+    char name[5]="kunj";//home work -- find out why we cant do size of char array = number of characters ( replace 5 with 4 for error )
+    cout << name[0] << endl;
+    cout << name[1] << endl;
+    cout << name[2] << endl;
+    cout << name[3] << endl;
+    cout << name[4] << endl;
 }
