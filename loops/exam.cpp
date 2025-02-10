@@ -20,6 +20,7 @@ int main(){
     }
     cout<< "\ncount of number is :: "<< count << endl;
     //Q-3
+
     int number,first=0,temp,temp2,rem=0,last=0;
     cout << "\nEnter Number :: ";
     cin >> number;
@@ -28,12 +29,8 @@ int main(){
     while (number > 0)
     {
         first=number%10;
-        number/=10;
-    }
-    while (temp > 0)
-    {
         rem=temp2%10;
-        temp/=10;
+        number/=10;
     }
     cout<<"\nSum of First And Last Digit = "<<(first+rem)<<endl;
 }
