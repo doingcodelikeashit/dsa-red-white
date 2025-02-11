@@ -43,7 +43,7 @@ int main(){
     case 4 :
         cout<<"Enter position you want to delete :: ";
         cin >> pos;
-        cout<<n<<endl;
+        // cout<<n<<endl;
         for (int i = pos-1;i<n; i++)
         {
             a[i]=a[i+1];
