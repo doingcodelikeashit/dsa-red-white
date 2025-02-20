@@ -44,10 +44,11 @@ int main(){
         cout<<"Enter position you want to delete :: ";
         cin >> pos;
         // cout<<n<<endl;
-        for (int i = pos-1;i<n; i++)
+        for (int i = pos;i<n-1; i++)
         {
             a[i]=a[i+1];
         }
+        n--;
         break;
     default:
         break;
