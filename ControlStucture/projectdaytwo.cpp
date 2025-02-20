@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    float userInput,bill=0,tax;
+    float userInput,bill=0;
     cout << "Enter Units:: ";
     cin >> userInput;
-    float ifFirstCon = 25,ifSecoundCon = 150; 
     if (userInput <= 50)
     {
         bill = userInput * 0.50;
@@ -22,6 +21,5 @@ int main(){
         bill = 220 + ((userInput-250)*1.50);
     }
     cout<< " \n your bill is (without TAX):: " << bill << endl;
-    tax=(bill*20)/100;
-    cout<< " \n your Total is :: " << (bill+tax) << endl;
+    cout<< " \n your Total is :: " << (float)(bill*1.20) << endl;
 }
