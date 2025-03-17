@@ -67,10 +67,10 @@ int main()
     LinkedList list;
 
     // Create
-    list.insert(10, 1); // Insert 10 at position 1
-    list.insert(20, 2); // Insert 20 at position 2
-    list.insert(30, 3); // Insert 30 at position 3
-    list.insert(40, 2); // Insert 40 at position 2
+    list.insert(10, 1); 
+    list.insert(20, 2); 
+    list.insert(30, 3); 
+    list.insert(40, 2); 
 
     cout << "Linked List after insertions: ";
     list.display();
