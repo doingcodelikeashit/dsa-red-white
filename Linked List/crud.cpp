@@ -96,7 +96,14 @@ public:
         }
         temp->data = val;
     }
-    void delete(int pos)
+    void deleteFirst()
+    {
+        Node *temp = HEAD;
+        HEAD = HEAD->nxt;
+        delete temp;
+        return;
+    }
+    void deleteNode(int pos)
     {
         if (HEAD == nullptr)
         {
@@ -143,7 +150,10 @@ int main()
     cout << "Linked List after update at position 2: ";
     list.display();
 
-    list.delete(3);
+    list.deleteNode(3);
     cout << "Linked List after deletion at position 3: ";
+    list.display();
+
+    list.deleteFirst();
     list.display();
 }
