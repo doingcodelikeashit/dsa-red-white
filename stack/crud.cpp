@@ -58,6 +58,17 @@ void isEmpty(int &top)
         cout << "stack is not empty" << endl;
     }
 }
+void isFull(int &top)
+{
+    if (top >= 100)
+    {
+        cout << "stack is max" << endl;
+    }
+    else
+    {
+        cout << "stack have space" << endl;
+    }
+}
 int main()
 {
     int top = -1;
